@@ -1,0 +1,6 @@
+<% # This won't appear in the final output. It's how to make comments in erb. %>
+
+
+<% @products.each do |product| %>
+	Price: $<%= product.price %>
+<% end %>
